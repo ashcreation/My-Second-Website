@@ -1,0 +1,62 @@
+body {
+background-image: url("UNSPLASH.jpg");
+background-size: cover;
+border: 10px solid black;
+
+}
+
+h1 {
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 200%;
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+a
+{
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 75px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: 'Jost', sans-serif;
+	cursor: pointer;
+}
+
+img {
+width: 500px;
+height: 500px;
+transition: all 1s	
+}
+
+	
+img {
+	float: right;
+}
+
+img:hover {
+transform: scale(1.5);
+}
+
+
+
+footer {
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 200%;
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+
+footer {
+	clear: both;
+}
